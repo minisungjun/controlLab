@@ -1,7 +1,0 @@
-rosnoetic
-cd coop_ws
-source devel/setup.bash
-roslaunch mpu6050_serial_to_imu demo.launch 
-
-
-아두이노에 파일 잘 올렸는지 확인!
