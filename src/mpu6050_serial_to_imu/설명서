@@ -1,7 +1,14 @@
 rosnoetic
 cd coop_ws
 source devel/setup.bash
-roslaunch mpu6050_serial_to_imu demo.launch 
+roslaunch mpu6050_serial_to_imu demo.launch
+
+ERROR: cannot launch node of type [mpu6050_serial_to_imu/tf_broadcaster_imu.py]: Cannot locate node of type [tf_broadcaster_imu.py] in package [mpu6050_serial_to_imu]. Make sure file exists in package path and permission is set to executable (chmod +x)
+발생시에
+tf_broadcaster_imu.py가 있는 위치로 이동후에
+sudo chmod +x tf_broadcaster_imu.py 입력
+최초 실행시에 한번만 해주면 됩니다.
 
 
-아두이노에 파일 잘 올렸는지 확인!
+
+아두이노에 파일 잘 올렸는지 확인! 
